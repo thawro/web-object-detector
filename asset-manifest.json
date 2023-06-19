@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-object-detector/static/css/main.43480781.css",
-    "main.js": "/web-object-detector/static/js/main.9950c07d.js",
+    "main.js": "/web-object-detector/static/js/main.b012c848.js",
     "static/js/787.343843af.chunk.js": "/web-object-detector/static/js/787.343843af.chunk.js",
     "static/js/ort-wasm-simd-threaded.jsep.wasm": "/web-object-detector/static/js/ort-wasm-simd-threaded.jsep.wasm",
     "static/js/ort-wasm-simd.jsep.wasm": "/web-object-detector/static/js/ort-wasm-simd.jsep.wasm",
@@ -22,11 +22,11 @@
     "static/media/postprocessing.onnx": "/web-object-detector/static/media/postprocessing.039133bcd1450c872db3.onnx",
     "index.html": "/web-object-detector/index.html",
     "main.43480781.css.map": "/web-object-detector/static/css/main.43480781.css.map",
-    "main.9950c07d.js.map": "/web-object-detector/static/js/main.9950c07d.js.map",
+    "main.b012c848.js.map": "/web-object-detector/static/js/main.b012c848.js.map",
     "787.343843af.chunk.js.map": "/web-object-detector/static/js/787.343843af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43480781.css",
-    "static/js/main.9950c07d.js"
+    "static/js/main.b012c848.js"
   ]
 }
