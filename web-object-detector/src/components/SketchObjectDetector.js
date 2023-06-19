@@ -82,11 +82,8 @@ const VideoExample = ({ src, handleVideoClick }) => {
 
 
 const SketchObjectDetector = ({ session, modelInputShape, maxOutputBoxesPerClass, iouThreshold, scoreThreshold }) => {
-    const screenWidth = window.innerWidth;
-    const screenHeight = window.innerHeight;
-
-    const initCanvasWidth = Math.floor(screenWidth * 0.65)
-    const initCanvasHeight = Math.floor(screenHeight * 0.4)
+    const initCanvasWidth = 640
+    const initCanvasHeight = 640
     const [canvasHeight, setCanvasHeight] = useState(initCanvasHeight)
     const [canvasWidth, setCanvasWidth] = useState(initCanvasWidth)
     const isDrawingRef = useRef(false)
