@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/web-object-detector/static/css/main.073c9b0a.css",
-    "main.js": "/web-object-detector/static/js/main.646c87cb.js",
+    "main.css": "/web-object-detector/static/css/main.43480781.css",
+    "main.js": "/web-object-detector/static/js/main.9950c07d.js",
     "static/js/787.343843af.chunk.js": "/web-object-detector/static/js/787.343843af.chunk.js",
-    "static/media/logo.svg": "/web-object-detector/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/js/ort-wasm-simd-threaded.jsep.wasm": "/web-object-detector/static/js/ort-wasm-simd-threaded.jsep.wasm",
+    "static/js/ort-wasm-simd.jsep.wasm": "/web-object-detector/static/js/ort-wasm-simd.jsep.wasm",
+    "static/media/yolo.onnx": "/web-object-detector/static/media/yolo.e7b75f1ec788882ccd99.onnx",
+    "static/js/ort-wasm-simd.wasm": "/web-object-detector/static/js/ort-wasm-simd.wasm",
+    "static/js/ort-wasm-simd-threaded.wasm": "/web-object-detector/static/js/ort-wasm-simd-threaded.wasm",
+    "static/js/ort-wasm.wasm": "/web-object-detector/static/js/ort-wasm.wasm",
+    "static/js/ort-wasm-threaded.wasm": "/web-object-detector/static/js/ort-wasm-threaded.wasm",
+    "static/media/video2.mp4": "/web-object-detector/static/media/video2.1cd6ade7edda39e62c15.mp4",
+    "static/media/video.mp4": "/web-object-detector/static/media/video.b68fe35e20204c3c2f5b.mp4",
+    "static/media/0.png": "/web-object-detector/static/media/0.ad1e37700d65ec4eb65a.png",
+    "static/media/2.png": "/web-object-detector/static/media/2.a822f44a2a1884d9da36.png",
+    "static/media/4.png": "/web-object-detector/static/media/4.92dff3ce1fee0fc74cb3.png",
+    "static/media/1.png": "/web-object-detector/static/media/1.9eff553f60cbba314cf0.png",
+    "static/media/3.png": "/web-object-detector/static/media/3.9e57885565c5502ea1f9.png",
+    "static/media/preprocessing.onnx": "/web-object-detector/static/media/preprocessing.9b222eccafa21e3d85a3.onnx",
+    "static/media/nms.onnx": "/web-object-detector/static/media/nms.15d266c18465d74e067a.onnx",
+    "static/media/postprocessing.onnx": "/web-object-detector/static/media/postprocessing.039133bcd1450c872db3.onnx",
     "index.html": "/web-object-detector/index.html",
-    "main.073c9b0a.css.map": "/web-object-detector/static/css/main.073c9b0a.css.map",
-    "main.646c87cb.js.map": "/web-object-detector/static/js/main.646c87cb.js.map",
+    "main.43480781.css.map": "/web-object-detector/static/css/main.43480781.css.map",
+    "main.9950c07d.js.map": "/web-object-detector/static/js/main.9950c07d.js.map",
     "787.343843af.chunk.js.map": "/web-object-detector/static/js/787.343843af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.646c87cb.js"
+    "static/css/main.43480781.css",
+    "static/js/main.9950c07d.js"
   ]
 }
