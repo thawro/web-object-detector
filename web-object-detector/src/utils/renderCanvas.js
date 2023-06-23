@@ -1,11 +1,10 @@
-import labels from "../constants/labels.json"
 
 /**
  * Render prediction boxes
  * @param {HTMLCanvasElement} canvas canvas tag reference
  * @param {Array[Object]} boxes boxes array
  */
-export const renderBoxes = (imageRef, canvasRef, boxes) => {
+export const renderBoxes = (imageRef, canvasRef, boxes, id2label) => {
     const canvas = canvasRef.current
     const ctx = canvas.getContext("2d");
     ctx.fillStyle = '#FFFFFF'
@@ -24,9 +23,8 @@ export const renderBoxes = (imageRef, canvasRef, boxes) => {
     const image = new Image();
     image.src = imageRef.current.src
     ctx.drawImage(image, 0, 0);
-
     boxes.forEach((box) => {
-        const class_id = labels[box.label];
+        const class_id = id2label[box.label];
         const color = colors.get(box.label);
         const score = (box.conf).toFixed(2);
         const [xn, yn, wn, hn] = box.box_xywhn; // center x and y

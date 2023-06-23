@@ -2,6 +2,7 @@ import preprocessing_onnx from './onnx/preprocessing.onnx'
 import yolo_onnx from './onnx/yolo.onnx'
 import nms_onnx from './onnx/nms.onnx'
 import postprocessing_onnx from './onnx/postprocessing.onnx'
+import digits_labels from './digits_labels.txt'
 
 import example_0 from './examples/0.png'
 import example_1 from './examples/1.png'
@@ -19,6 +20,7 @@ export {
     yolo_onnx,
     nms_onnx,
     postprocessing_onnx,
+    digits_labels,
     example_0,
     example_1,
     example_2,

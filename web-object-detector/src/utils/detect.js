@@ -51,7 +51,7 @@ export const detectObjects = async (
 
     startTime = new Date();
     const tensor_img = new Tensor("float32", preprocessed_img.data, inputShape);
-    const { output0 } = await session.yolo.run({ images: tensor_img }); // run yolo on preprocessed image and get outputs
+    const { output0 } = await session.detectionModel.run({ images: tensor_img }); // run detectionModel on preprocessed image and get outputs
     const detectionTime = new Date() - startTime;
 
 

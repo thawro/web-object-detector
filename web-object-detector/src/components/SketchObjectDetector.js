@@ -7,6 +7,7 @@ import { exampleImages, exampleVideos } from "../constants"
 import { saveAs } from 'file-saver';
 import { BsPlayCircleFill, BsPauseCircleFill } from "react-icons/bs";
 
+
 const playButton = <BsPlayCircleFill className="playButton" />
 const pauseButton = <BsPauseCircleFill className="playButton" />
 
@@ -244,7 +245,7 @@ const SketchObjectDetector = ({ session, modelInputShape, maxOutputBoxesPerClass
             scoreThreshold,
             modelInputShape
         );
-        renderBoxes(imageRef, boxesCanvasRef, boxes); // Draw boxes
+        renderBoxes(imageRef, boxesCanvasRef, boxes, session.labels); // Draw boxes
         renderInfo(boxesCanvasRef, speed)
     }
 
@@ -299,7 +300,15 @@ const SketchObjectDetector = ({ session, modelInputShape, maxOutputBoxesPerClass
 
     const playVideo = (video) => {
         videoRef.current = video
-        updateCanvasProps({ width: video.videoWidth, height: video.videoHeight, lineWidth: lineWidth, strokeStyle: color })
+        const maxWidth = window.innerWidth * 0.4
+        let width = video.videoWidth
+        let height = video.videoHeight
+        let ratio = width / height
+        if (width > maxWidth) {
+            width = maxWidth
+            height = width / ratio
+        }
+        updateCanvasProps({ width: width, height: height, lineWidth: lineWidth, strokeStyle: color })
         video.play()
         putVideoOnCanvas(video)
     }
